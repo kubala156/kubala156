@@ -1,0 +1,56 @@
+<div class="services">
+    <h2>Usługi Informatyczne</h2>
+    <div>
+        <h3>- Serwis komputerów</h3>
+        <div class="description">
+            <img src="res/repair.jpg" />
+            <p>
+                Oferuje naprawę i modernizację komputerów stacjonarnych i laptopów
+            </p>
+        </div>
+    </div>
+    <div>
+        <h3>- Doradztwo</h3>
+        <div class="description">
+            <img src="res/consulting.jpg" />
+            <p>
+                Dorardzam w kwestii wyboru oprogramowania i sprzętu komputerowego.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h3>- Sieci komputerowe</h3>
+        <div class="description">
+            <img src="res/networking.jpg" />
+            <p>
+                Zajmuje się administracją i wdrażaniem rozwiązań sieci przewodowej i bezprzewodowej.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h3>- Wdrażanie nowych systemów i integracja z już istniejącymi</h3>
+        <div class="description">
+            <img src="res/programmer.jpg" />
+            <p>
+                Wdrożę nowy wybrany przez klienta system lub z integruje go z istniejącymi. Od serwera po stanowisko robocze klienta.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h3>- Usługi WWW</h3>
+        <div class="description">
+            <img src="res/www.jpg" />
+            <p>
+                Zarządzanie CMSami, aktualizacje, przenoszenie danych, usuwanie skutków ataków załośliwego oprogramowania.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(".services div h3").each(function (index) {
+            $(this).delay(300 * index).fadeIn(200);
+        });
+    });
+</script>
