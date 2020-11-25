@@ -1,6 +1,6 @@
 window.onload = function() {
     // Start page
-    var defaultPage = "services";
+    var defaultPage = "projects";
     if (window.location.hash.length > 0) {
         setPage(window.location.hash, false);
     }
