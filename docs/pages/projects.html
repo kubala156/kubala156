@@ -1,0 +1,29 @@
+<div class="projects">
+    <h2>Usługi Informatyczne</h2>
+    <div>
+        <h3>- Serwis komputerów</h3>
+        <div class="description">
+            <img src="res/repair.jpg" />
+            <p>
+                DociFlow
+            </p>
+        </div>
+    </div>
+    <div>
+        <h3>- Doradztwo</h3>
+        <div class="description">
+            <img src="res/consulting.jpg" />
+            <p>
+                MaeveFramework
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(".projects div h3").each(function (index) {
+            $(this).delay(300 * index).fadeIn(200);
+        });
+    });
+</script>
